@@ -1,0 +1,53 @@
+
+/* Base Style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+  }
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  border: 1px solid black;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+
+#p1 {
+  background-color: red;
+  
+  width: 10%;
+  padding: 10px;
+
+}
+
+#p2 {
+  background-color: blue;
+}
+
+#p3 {
+  background-color: orange;
+}
+
+/* Desktop View Style */
+
+@media (min-width 992px)
+
+/* Tablet View Style */
+
+@media (min-width 768px) and (max-width 991px)
+
+/*Mobile View Style*/
+
+@media (max-width 767)
+
+}
