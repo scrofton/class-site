@@ -1,0 +1,26 @@
+* {
+    
+}
+
+/* Media Queries *?
+
+******* Large Devices *******
+@media (min-wdith: 1200px) {
+
+}
+
+******* Medium Devices *******
+@media (min-wdith: 922px) and (max-wdith: 1199px) {
+
+}
+
+******* Small Devices *******
+@media (min-wdith: 768px) and (max-wdith: 991px) {
+
+}
+
+******* Extra Small Devices *******
+@media (max-wdith: 767px) {
+    
+}
+

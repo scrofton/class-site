@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 1.5rem;
+    background-color: #ffffff;
+}
+/*Home Navagation Top Bar*/
+.nc-top-bar {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+header {
+    background: #ffffff;
+}
+.logo {
+    float: left;
+    padding-top:10px;
+    margin-left: 10px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 50px;
+}
+nav div img {
+    float: right;
+}
+nav ul li:hover {
+    color: orange;
+}
+.flags {
+   margin-right: 15px;
+
+}
+/* End of Home Navagation Top Bar*/
+/*Home Page Picture Slide*/
+.nc-home-top-slide {
+    clear: both;
+}
+div span img {
+    border: 1px solid black;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* Media Queries *?
+
+******* Large Devices *******
+@media (min-wdith: 1200px) {
+
+}
+
+******* Medium Devices *******
+@media (min-wdith: 922px) and (max-wdith: 1199px) {
+
+}
+
+******* Small Devices *******
+@media (min-wdith: 768px) and (max-wdith: 991px) {
+
+}
+
+******* Extra Small Devices *******
+@media (max-wdith: 767px) {
+    
+}
+
