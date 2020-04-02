@@ -5,11 +5,12 @@
         <meta charset="utf-8">
         <meta name="virewport" content="width=device-width, inital-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet"  href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Neighbors Connect</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     </head>
     <body>
-        <div id="root">
+        <main>
             <!-- Navagation Bar-->
         <header>
             <div class="nc-home-top-bar">
@@ -25,50 +26,114 @@
         </header>
         <!-- End of Navagation Bar-->
         <!-- Community Carousel Selection-->
-        <div class="nc-home-top-slide">
-            <span>
-                <div class="nc-home-top-slide-pic1"> <img src="images/HomePic1.jpg" width="100%"></div>
-                <div class="nc-home-top-slide-pic2"></div>
-                <div class="nc-home-top-slide-pic3"></div>
-            </span>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         <!--End of Community Carousel Selection-->
-        <!---->
 
+        <!--Features of NC-->
+        <div class="nc-home-about-features">
+            <div class="about-features">
+                    <img class="about-logo" src="Images/Develop.png" alt="Develop Community Icon"> 
+                    <div class="about-features-titles">Develop</div>
+                    <p class="about-features-content">The best way to know you community is to connect with the people living in it.</p>
+                </div>
+            <div class="about-features">
+                    <img class="about-logo" src="images/Share.png" alt="Share Community Icon">
+                    <div class="about-features-titles">Share</div>
+                    <p class="about-features-content">The best way to continue nurturing relationships with others beyond your home.</p>
+                </div>
+            <div class="about-features">
+                    <img class="about-logo" src="images/Connect.png" alt="Connect Community Icon">
+                    <div class="about-features-titles">Connect</div>
+                    <p class="about-features-content">The best way to connect with neighbors, local business, town/city officals, and more.</p>
+                </div>       
+            </main>
+        <!--End of Features of NC-->
+        <!--Footer-->
+        <footer>
+            <hr>
+            <div class="home-footer">
+               <div class="inner-footer">
+                   <img src="Images/Logo2.png">
+               </div>
+               <div class="inner-footer">
+                <ul>
+                    <li class="footer-title">Communities</li>
+                    <li href="#">Get Started</li>
+                    <li href="#">Guidelines</li>
+                   <li href="#">Events</li>
+                </ul>
+                </div>
+               <div class="inner-footer">
+                   <ul>
+                    <li class="footer-title">Featured Events</li>
+                   </ul>
+               </div>
+               <div class="inner-footer">
+                <ul>
+                    <li class="footer-title">Resources</li>
+                    <li href="#">Get Started</li>
+                    <li href="#">Get Started</li>
+                    <li href="#">Get Started</li>
+                </ul>
+                </div>
+               <div class="inner-footer">
+                    <ul>
+                        <li class="footer-title">Business</li>
+                        <li href="#">Local Business</li>
+                        <li href="#">Enterprise</li>
+                        <li href="#">Advertise</li>
+                        <li href="#">Real Estate</li>
+                        <li href="#">Paid Marketing Terms</li>
+                    </ul>
+                </div>
+               
 
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-        <!-- Nav Bar (on top)-->
-       
-        <main>
-
-            <div class="row">
-                <div class="column" style="background-color:#aaa;">
-                    <h2>Column 1</h2>
-                    <p>Some text..</p>
-                  </div>
-                  <div class="column" style="background-color:#bbb;">
-                    <h2>Column 2</h2>
-                    <p>Some text..</p>
-                  </div>
-                  <div class="column" style="background-color:#ccc;">
-                    <h2>Column 3</h2>
-                    <p>Some text..</p>
-                  </div>
             </div>
-        </main>
-        <footer></footer>
+
+        </footer> 
+        <!--End of Footer-->
+
+
+
+
+
+
+
+
+
+
     </body>      
 </html>

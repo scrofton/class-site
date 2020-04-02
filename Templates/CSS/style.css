@@ -24,3 +24,96 @@
     
 }
 
+/*! = $rembase: 14px
+--------------------------------------------------------------
+* hmtl { font-size: 87.5%; }
+* body { font-size: 14px; font-size: 1rem; line-height: 1; }
+* 4px    	0.28571429rem
+* 8px		0.571428571rem
+* 12px		0.857142857rem
+* 13px		0.928571429rem
+* 14px		1rem
+* 16px		1.142857143rem
+* 18px		1.285714286rem
+* 20px		1.428571429rem
+* 21px		1.5rem
+* 22px		1.571428571rem
+* 24px		1.714285714rem
+* 28px		2rem
+* 36px		2.571428571rem
+* 42px		3rem
+* 48px		3.428571429rem
+* 64px		4.57142857rem
+* 72px		5.142857143rem
+*/
+
+/*! = $rembase: 16px
+--------------------------------------------------------------
+* hmtl { font-size: 100%; }
+* body { font-size: 16px; font-size: 1rem; line-height: 1; }
+* 4px    	0.25rem
+* 8px		0.5rem
+* 12px		0.75rem
+* 14px		0.875rem
+* 16px		1rem
+* 18px		1.125rem
+* 20px		1.25rem
+* 22px		1.375rem
+* 24px		1.5rem
+* 32px		2rem
+* 36px		2.25rem
+* 48px		3rem
+* 64px		4rem
+* 72px		4.5rem
+/*! =Rem base magic derived from Twenty Twelve Theme
+--------------------------------------------------------------
+$rembase:     16;
+$line-height: 24;
+---------- Examples
+* Pixel value with a rem fallback for font-size, padding, margins, etc.
+    padding: 5px 0;
+    padding: 0.3125rem 0; (5 / $rembase)
+* Set a font-size and then set a line-height based on the font-size
+	font-size: 18px
+	font-size: 1.125rem; (18 / $rembase)
+	line-height: 1.33333333; ($line-height / 18)
+---------- Vertical spacing
+Vertical spacing between most elements should use 24px or 48px
+to maintain vertical rhythm:
+.my-new-div {
+	margin: 24px 0;
+	margin: 1.5rem 0; ( 24 / $rembase )
+}
+
+margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+  }
