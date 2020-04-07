@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 1.5rem;
+    background-color: #fff;
+}
+/*Style Home Navbar*/
+.navbar {
+    overflow: hidden;
+    background-color:#fff;
+    margin: 0 15% 0 15%;
+}
+nav img {                          
+    float: left;
+    margin: 0.8rem 0 0 2rem;
+}
+nav div a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+div a#home-title {
+    margin: 2rem 0 0 1rem;
+}
+nav div a.right {
+    display: block;
+    float: right;
+    margin: 2rem 3rem 0 1rem;  /*Position of the Sign Up and Login*/
+}
+.navbar a:hover:not(:nth-child(2)) {
+    color: #f6843d;
+}
+nav a:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+} 
+.right {
+    color: #000;
+}
+/* End of Home Navbar*/
+/* Main Content*/
+
+.img-box {
+    width: 100;
+    height: 700px;
+    padding: 0;
+    margin: 15px 0 0 0 ;
+    border: 1px solid #000;
+    background-image: url(../Images/homepic1.jpg);
+    background-size: cover;
+    position: relative;  /*All boxes inside of this box will stay within the box*/
+}
+
+
+
+
+    /*Sign Up Form */
+h1 {
+    font-size: 40px;
+}
+form input {
+    height: 18px;     /* Input Height*/
+    width: 100px;
+}
+form p {
+    font-size: 16px;
+}
+.sign-up-form {
+    width: 20%;
+    overflow: hidden;
+    height: 500px;            /* Container Height*/
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+    background: #fff;
+    opacity: .8;
+    margin: 4% 0 5% 70%;      /*Where form is positioned*/
+}
+.sign-up-form h1 {          /*Sign up name*/
+    color: #f6843d;
+    margin-bottom: 30px;
+}
+.first-box {                 /*first name*/
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 45%;
+    border: 1px solid #a8a7a8;
+    outline: none;  
+    height: 30px;
+    text-align: center;
+}
+.last-box {                 /*last name*/
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 45%;
+    border: 1px solid #a8a7a8;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}
+.input-box {                /*Email and Password*/
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 92%;
+    border: 1px solid #a8a7a8;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}
+.or {
+    font-size: 20px;
+}
+button {                    /*Sign Up and social media buttons*/
+    color: #f6843d;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button.signup-button {
+    background-color: #1c8adb;
+}
+button.facebook-button {
+    background-color:'';
+}
+button.twitter-button {
+    background-color:'';
+}
+button.linkdin-button {
+    background-color:'';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End of Sign Up Form */
+
+/*Footer*/
+
+/*End of Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+/* Super Extra Large Devices*/
+@media all and (min-width: 1401px) and (max-width: 1600px) { 
+    #slider figure img {
+        height: 600px;
+        width: 100%; 
+        }
+    }
+/* Extra Large Devices*/
+@media all and (min-width: 1291px) and (max-width: 1400px) { 
+#slider figure img {
+    height: 600px;
+    width: 100%; 
+    }
+}
+/*Large Devices*/
+@media all and (min-width: 1024px) and (max-width: 1290px) { }
+#slider figure img {
+    height: 600px;
+    width: 100%; 
+    }
+/* Medium Devices */
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    #slider figure img {
+        height: 600px;
+        width: 100%; 
+        }
+ }
+ /*Mobile Devices*/
+@media all and (min-width: 480px) and (max-width: 768px) { }
+#slider figure img {
+    height: 600px;
+    width: 100%; 
+    }
+/*Extra Small Devices*/
+@media all and (max-width: 480px) { }
+#slider figure img {
+    height: 600px;
+    width: 100%; 
+    }
+/*------------------------------------------
+  Foundation Media Queries 
+--------------------------------------------*/
+ 
+/* Small screens - MOBILE */
+@media only screen { } /* Define mobile styles - Mobile First */
+ 
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ 
+/* Medium screens - TABLET */
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+ 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ 
+/* Large screens - DESKTOP */
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+ 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+ 
+/* XLarge screens */
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+ 
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ 
+/* XXLarge screens */
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xlarge screens */
+ 
+/*------------------------------------------*/
+ 
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+ 
+ 
+/* CSS for iPhone, iPad, and Retina Displays */
+ 
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+ 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+ 
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+} 
+ 
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+ 
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+}
+ 
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+}
+
+/*--------------------------------------------------------------
+* hmtl { font-size: 100%; }
+* body { font-size: 16px; font-size: 1rem; line-height: 1; }
+* 4px    	0.25rem
+* 8px		0.5rem
+* 12px		0.75rem
+* 14px		0.875rem
+* 16px		1rem
+* 18px		1.125rem
+* 20px		1.25rem
+* 22px		1.375rem
+* 24px		1.5rem
+* 32px		2rem
+* 36px		2.25rem
+* 48px		3rem
+* 64px		4rem
+* 72px		4.5rem
+/*! =Rem base magic derived from Twenty Twelve Theme
+--------------------------------------------------------------*/
+/* Slide Frame -testing
+figure {
+    
+    margin: 10px 0;
+}
+#slider {
+    height: 600px;
+    width: 100%;
+    
+    animation: 5s slider infinite;  
+}
+
+#slider figure img {
+    height: 600px;
+    width: 1300px; 
+}
+*/
